@@ -39,10 +39,10 @@ int main( int argc, char *argv[]) {
 	*/
 	int option = 0;
 
-	if ( (strcmp("-m", argv[1]) == 0) && argc > 2) {
+	if ( argc > 2 && (strcmp("-m", argv[1]) == 0)) {
 		option = 1;
 	}
-	if ( (strcmp("-c", argv[1]) == 0) && argc > 2) {
+	if ( argc > 2 && (strcmp("-c", argv[1]) == 0)) {
 
 		option = 2;
 	}
